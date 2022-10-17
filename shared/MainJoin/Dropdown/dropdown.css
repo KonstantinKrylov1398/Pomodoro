@@ -1,0 +1,35 @@
+.dropdown {
+    position: absolute;
+    left: 280px;
+    top: 50px;
+    width: 165px;
+    min-height: 125px;
+    border: 1px solid #c4c4c4;
+    background: white;
+    z-index: 1;
+}
+
+.ul {
+    padding: 0;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.li {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 17px;
+    color: #999999;
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.svg {
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.li:hover {
+    background: #F4F4F4;
+}

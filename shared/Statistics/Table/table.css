@@ -1,0 +1,111 @@
+.h2 {
+    font-size: 24px;
+    line-height: 33px;
+    color: #333333;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+
+.table_statistics_day {
+    width: 300px;
+    height: 260px;
+    background: #e5e5e5;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+.table_statistics_table {
+    width: 980px;
+    height: 470px;
+    background: #e5e5e5;
+    margin-left: 30px;
+    margin-top: 40px;
+    position: relative;
+}
+
+.table_statistics_flex {
+    display: flex;
+}
+
+.table_main {
+    align-content: center;
+}
+
+.table_statistics_one {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #333333;
+    padding-top: 25px;
+    margin-left: 25px;
+}
+
+.table_statistics_two {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+    color: #333333;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.week {
+    display: flex;
+    background: #ECECEC;
+    top: 422px;
+    position: absolute;
+    width: 960px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.day {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #999999;
+    margin-left: 80px;
+}
+
+.block {
+    background: #333333;
+    opacity: 0.2;
+    height: 1px;
+    width: 843px;
+    margin-top: 84px;
+    position: relative;
+}
+
+.time {
+    position: absolute;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 33px;
+    color: #333333;
+    left: 870px;
+    top: -20px;
+}
+
+.flex {
+    position: relative;
+}
+
+.block_height {
+    width: 77px;
+    border: 1px solid #DC3E22;
+    background: #DC3E22;
+    margin-top: -10px;
+    position: absolute;
+    bottom: 0;
+    top: auto;
+    transform: translate(0, -40px);
+    left: 50px;
+}
+
+.relative {
+    position: relative;
+}

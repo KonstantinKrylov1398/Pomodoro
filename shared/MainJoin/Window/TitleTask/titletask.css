@@ -1,0 +1,10 @@
+.titleTask {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 17px;
+    /* identical to box height, or 106% */
+    color: #FFFFFF;
+    margin-left: 40px;
+    margin-top: 20px;
+}
