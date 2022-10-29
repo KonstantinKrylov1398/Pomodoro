@@ -1,0 +1,53 @@
+{
+    "name": "02",
+    "version": "1.0.0",
+    "description": "",
+    "main": "webpack.config.js",
+    "engines": {
+        "node": "14.x"
+    },
+    "scripts": {
+        "build": "cross-env NODE_ENV=production webpack --config webpack.config.js",
+        "dev": "cross-env REDIRECT_URI=http://localhost:3000 NODE_ENV=development node ./bin/dev.js",
+        "start": "cross-env REDIRECT_URI=http://localhost:3000 node ./dist/server/server.js"
+    },
+    "author": "taori",
+    "license": "MIT",
+    "dependencies": {
+        "@hot-loader/react-dom": "^17.0.1",
+        "@types/react": "^18.0.16",
+        "@types/react-dom": "^18.0.6",
+        "@types/react-redux": "^7.1.24",
+        "@types/react-router-dom": "^5.3.3",
+        "axios": "^1.1.3",
+        "clean-webpack-plugin": "^4.0.0",
+        "cross-env": "^7.0.3",
+        "css-loader": "^3.4.2",
+        "express": "^4.18.1",
+        "file-loader": "^6.2.0",
+        "generator-react-ts-component-dir": "^1.0.0",
+        "helmet": "^6.0.0",
+        "html-webpack-plugin": "^4.5.2",
+        "less": "^3.13.1",
+        "less-loader": "^5.0.0",
+        "nodemon": "^2.0.19",
+        "react": "^17.0.1",
+        "react-css-modules": "^4.7.11",
+        "react-dom": "^17.0.1",
+        "react-hot-loader": "^4.13.0",
+        "react-redux": "^8.0.2",
+        "react-router-dom": "^6.3.0",
+        "redux": "^4.2.0",
+        "style-loader": "^1.1.3",
+        "ts-loader": "^6.2.1",
+        "typescript": "^4.6.4",
+        "typescript-plugin-css-modules": "^3.4.0",
+        "unique-names-generator": "^4.7.1",
+        "webpack": "^4.42.0",
+        "webpack-cli": "^3.3.11",
+        "webpack-dev-middleware": "^3.7.3",
+        "webpack-dev-server": "^3.10.3",
+        "webpack-hot-middleware": "^2.25.1",
+        "webpack-node-externals": "^3.0.0"
+    }
+}

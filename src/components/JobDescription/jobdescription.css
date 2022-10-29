@@ -1,0 +1,28 @@
+.mainOne {
+    margin-top: 100px;
+    margin-left: 190px;
+}
+
+.mainOne_ul {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    color: #333333;
+    width: 510px;
+    padding: 0;
+    list-style: none;
+}
+
+.mainOne_h2 {
+    width: 450px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #333333;
+}
+
+.mainOne_li:before {
+    color: #B7280F;
+    content: "•";
+    padding-right: 7px;
+}
