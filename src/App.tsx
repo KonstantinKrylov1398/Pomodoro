@@ -1,4 +1,3 @@
-import { hot } from "react-hot-loader/root";
 import "./main.global.css";
 import React, { useEffect, useState } from "react";
 import { Header } from "./components/Header";
@@ -10,7 +9,7 @@ import { Layout } from "./components/Layout";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { StatisticsPage } from "./components/StatisticsPage";
 const store = createStore(myReducer);
-function AppComponent() {
+export function AppComponent() {
   const [mounted, setMounted] = useState(false);
   useEffect(() => {
     setMounted(true);
@@ -36,5 +35,3 @@ function AppComponent() {
     </Provider>
   );
 }
-
-export const App = hot(() => <AppComponent />);
