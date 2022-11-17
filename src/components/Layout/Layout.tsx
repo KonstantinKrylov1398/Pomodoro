@@ -1,4 +1,4 @@
-import React, { ReactNode } from "react";
+import React from "react";
 import styles from "./layout.css";
 
 export function Layout({ children }: any) {
